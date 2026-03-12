@@ -324,3 +324,18 @@ _stateDelegate.update { it.copy(products = ...) }
     ↓
 StateFlow<State> → collectAsState() → Composable recomposition
 ```
+
+
+
+I have completed but i am unable to test for IOS device
+Android and iOS support via Kotlin Multiplatform.
+
+-   Product list screen.
+
+-   Product detail screen.
+
+-   Search functionality integrated with the API.
+
+-   At least one business use case (e.g., GetProducts, SearchProducts).
+
+-   At least one unit test for a use case or repository.
